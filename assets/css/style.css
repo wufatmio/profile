@@ -1,0 +1,230 @@
+body {
+	min-height: 75rem;
+	font-family: Roboto;
+	width: 100%;
+    height: 100%;
+}
+
+.bg-inverse {
+    background-color: rgba(41, 43, 44, 0.7)!important;
+}
+
+/* Preloader
+--------------------------------------------*/
+.preloader {
+	position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+	background: #fff;
+    z-index: 9999;
+}
+
+.preloader_div {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+/* Header
+--------------------------------------------*/
+
+header:before {
+	top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    content: "";
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+header {
+	min-height: 100vh;
+	height: 100%;
+	position: relative;
+	background-image: url("../images/bg_top.jpg");
+	background-position: bottom center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-clip: initial;
+    background-color: rgba(0, 0, 0, 0);
+    background-origin: initial;
+    background-size: cover;
+	color: white;
+}
+
+.caption {
+    padding-left: 15px;
+    padding-right: 15px;
+    display: table;
+    margin: auto;
+    text-align: center;
+    padding: 15px;
+	padding-top: 40vh;
+}
+
+.caption > h1 {
+	font-weight: 700;
+	font-size: 6rem;
+}
+.caption > p {
+	font-size: 2rem;
+}
+
+/* Typed blnik
+--------------------------------------------*/
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+/* Section
+--------------------------------------------*/
+section {
+	padding-top: 60px;
+}
+
+@media (min-width: 1200px) {
+	.container {
+		width: 960px;
+		max-width: 100%;
+	}
+}
+
+hr {
+	border-width: 5px;
+	border-color: #333;
+	width: 80px;
+	margin-top: -10px;
+	padding-bottom: 20px;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-weight: 600;
+	line-height: 50px;
+	padding-top: 30px;
+}
+
+
+/* About
+--------------------------------------------*/
+#about {
+	min-height: 100vh;
+	height: 100%;
+	position: relative;
+    background-color: rgba(240, 240, 240, 1);
+}
+
+h4 {
+	line-height: 30px;
+	padding-top: 10px;
+}
+
+#php {
+	min-width: 128px;
+	height: 128px;
+	line-height: 128px;
+	background-image: url("../images/logos/php.svg");
+	background-position: center center;
+    background-repeat: no-repeat;
+	background-size: contain;
+}
+
+#html5 {
+	min-width: 128px;
+	height: 128px;
+	line-height: 128px;
+	background-image: url("../images/logos/html5.svg");
+	background-position: center center;
+    background-repeat: no-repeat;
+	background-size: contain;
+}
+
+#lua {
+	min-width: 128px;
+	height: 128px;
+	line-height: 128px;
+	background-image: url("../images/logos/lua.svg");
+	background-position: center center;
+    background-repeat: no-repeat;
+	background-size: contain;
+}
+
+#jquery {
+	min-width: 128px;
+	height: 128px;
+	line-height: 128px;
+	background-image: url("../images/logos/jquery.png");
+	background-position: center center;
+    background-repeat: no-repeat;
+	background-size: contain;
+}
+
+#bootstrap {
+	min-width: 128px;
+	height: 128px;
+	line-height: 128px;
+	background-image: url("../images/logos/bootstrap.svg");
+	background-position: center center;
+    background-repeat: no-repeat;
+	background-size: contain;
+}
+
+#js {
+	min-width: 128px;
+	height: 128px;
+	line-height: 128px;
+	background-image: url("../images/logos/js.png");
+	background-position: center center;
+    background-repeat: no-repeat;
+	background-size: contain;
+}
+/* Works
+--------------------------------------------*/
+#works {
+	min-height: 60vh;
+	height: 60%;
+	position: relative;
+    background-color: rgba(220, 220, 220, 1);
+}
+/* Contact
+--------------------------------------------*/
+#contact {
+	min-height: 40vh;
+	height: 40%;
+	position: relative;
+    background-color: rgba(100, 100, 100, 1);
+	color: white;
+}
+
+#contact hr {
+	border-color: white;
+}
+/* Footer
+--------------------------------------------*/
+footer {
+	padding: 30px 0px;
+	position: relative;
+    background-color: rgba(50, 50, 50, 1);
+	color: white;
+}
