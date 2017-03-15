@@ -1,6 +1,8 @@
-$(document).ready(function(){
+(function ($) {
+	'use strict';
+
 	// Preloader
-	$(window).on("load", function(e) {
+	$(window).on("load", function() {
 		$('.preloader').fadeOut();
 		$('.preloader_div').delay(350).fadeOut('slow');
 	});
@@ -40,7 +42,7 @@ $(document).ready(function(){
 	$(".typed").typed({
 		strings: [
 			"Web Developer.", 
-			"Lua Developer.",
+			"A Student.",
 			"Still Learning more..."
 		],
 		typeSpeed: 100,
@@ -73,4 +75,4 @@ $(document).ready(function(){
 			scrollTop: $("#contact").offset().top
 		}, 500);
 	});
-});
+})(jQuery);

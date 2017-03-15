@@ -62,7 +62,7 @@ header {
     margin: auto;
     text-align: center;
     padding: 15px;
-	padding-top: 40vh;
+	padding-top: 40%;
 }
 
 .caption > h1 {
@@ -100,7 +100,7 @@ header {
 /* Section
 --------------------------------------------*/
 section {
-	padding-top: 60px;
+	padding-top: 5rem;
 }
 
 @media (min-width: 1200px) {
@@ -122,7 +122,6 @@ h2 {
 	text-transform: uppercase;
 	font-weight: 600;
 	line-height: 50px;
-	padding-top: 30px;
 }
 
 
@@ -202,16 +201,16 @@ h4 {
 /* Works
 --------------------------------------------*/
 #works {
-	min-height: 60vh;
-	height: 60%;
+	min-height: 70vh;
+	height: 70%;
 	position: relative;
     background-color: rgba(220, 220, 220, 1);
 }
 /* Contact
 --------------------------------------------*/
 #contact {
-	min-height: 40vh;
-	height: 40%;
+	min-height: 30vh;
+	height: 30%;
 	position: relative;
     background-color: rgba(100, 100, 100, 1);
 	color: white;
